@@ -4,5 +4,7 @@
     <string name="app_name">AnimationTest</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="animation_textview_label">Animation</string>
+    <string name="image_textview_label">Image</string>
 
 </resources>
