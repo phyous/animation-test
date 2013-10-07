@@ -14,40 +14,44 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:src="@drawable/bell"
-            >
-    </ImageView>
+            />
 
     <LinearLayout
             android:id="@+id/animation_selection_layout"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="20dp"
             android:layout_below="@+id/animation_image">
         <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="2"
                 android:text="@string/animation_textview_label"/>
 
         <Spinner
                 android:id="@+id/animation_selection_spinner"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
                 android:minWidth="@dimen/activity_horizontal_margin"
                 />
     </LinearLayout>
 
     <LinearLayout
             android:id="@+id/image_selection_layout"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/animation_selection_layout">
         <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:text="@string/image_textview_label"/>
 
         <Spinner
                 android:id="@+id/image_selection_spinner"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="4"
                 android:layout_height="wrap_content"
                 android:minWidth="@dimen/activity_horizontal_margin"
                 />

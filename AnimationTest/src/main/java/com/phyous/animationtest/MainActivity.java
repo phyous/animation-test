@@ -60,6 +60,7 @@ public class MainActivity extends Activity {
 
         // Set up image selector
         mImageArray = new ArrayList<String>();
+        // TODO: This is a little ugly... Abstract this out
         mImageArray.add("bell");
         mImageArray.add("star");
         Spinner imageSpinner = (Spinner) findViewById(R.id.image_selection_spinner);
